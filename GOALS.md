@@ -1,0 +1,1 @@
+Сreate an application for learning words by listening using the interval repetition (SRS) method. Words (as "learn unit") (Word.kt class) are located in folders (Folder.kt class) in the form of audio files (AFile.kt class). The user presses the standard (play/pause) button on his headset if he knows this word, so that the word will played again later
