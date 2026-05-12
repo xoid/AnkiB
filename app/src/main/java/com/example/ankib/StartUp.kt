@@ -12,6 +12,7 @@ class StartUp(private val context: Context) {
         
         // list application home dir for Folders, init all Folder
         val homeDir = context.filesDir
+        Util.longToast( context, homeDir.absolutePath )
         val folders = homeDir.listFiles { file -> file.isDirectory } ?: emptyArray()
         return folders.map { Folder(it.absolutePath) }
     }
